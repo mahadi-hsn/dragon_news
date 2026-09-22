@@ -43,7 +43,7 @@ const NewsCard = ({ news }) => {
           />
         </figure>
         <p className="line-clamp-3 text-gray-500">{news.details}</p>
-        <Link href={""} className="text-yellow-500 text-md font-bold">
+        <Link href={`/news/${news._id}`} className="text-yellow-500 text-md font-bold">
           Read more
         </Link>
         <hr className="opacity-30" />
