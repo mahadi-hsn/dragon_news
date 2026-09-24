@@ -37,7 +37,7 @@ const NewsIdPage = async ({ params }) => {
       </div>
 
       <div className="col-span-1">
-        <div>
+        <div className="p-4 shadow card">
           <h1 className="text-xl font-semibold">Login With</h1>
           <RightSideBar></RightSideBar>
         </div>
